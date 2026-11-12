@@ -21,7 +21,6 @@ body {
     min-height: 100vh
 }
 
-
 /* Pagination */
 .pagination {
     display: flex;
@@ -102,9 +101,75 @@ body {
     }
 }
 
+.topbar {
+    height: 76px;
+    background: #fff;
+    border-bottom: 1px solid #e9edf4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 0 max(calc((100vw - 1200px)/2), 5.5%)
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: -.5px
+}
+
+.brand-icon {
+    width: 39px;
+    height: 39px;
+    border-radius: 12px;
+    background: #eeeaff;
+    color: #6554d9;
+    display: grid;
+    place-items: center
+}
+
+.brand-light {
+    font-weight: 500;
+    color: #7c8498
+}
+
+.topbar-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #a0a7b7
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #555e72
+}
+
+.avatar {
+    width: 33px;
+    height: 33px;
+    background: #e9e5ff;
+    color: #6554d9;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-weight: 700
+}
+
 .main-content {
     max-width: 1200px;
     margin: 0 auto;
+    /* margin-top:; */
     padding: 43px 28px 25px
 }
 
@@ -112,7 +177,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-bottom: 27px
+    margin-bottom: 27px;
+    margin-top: 50px;
 }
 
 .eyebrow {

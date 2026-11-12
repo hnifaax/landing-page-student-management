@@ -2,8 +2,16 @@
 import React, { useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import {
-  Users, Clock3, Search, Mail, MapPin,
-  Phone, CalendarDays, ChevronLeft, ChevronRight
+  GraduationCap,
+  Users,
+  Clock3,
+  Search,
+  Mail,
+  MapPin,
+  Phone,
+  CalendarDays,
+  ChevronLeft,
+  ChevronRight
 } from 'lucide-react';
 import './style.css';
 
@@ -90,6 +98,14 @@ function App() {
 
   return (
     <div className="app-shell">
+      <header className="topbar">
+        <div className="brand">
+          <div className="brand-icon"><GraduationCap size={23} /></div>
+          <span>FrontEnd<span className="brand-light">Challenge</span></span>
+        </div>
+        <div className="topbar-label">STUDENT MANAGEMENT SYSTEM</div>
+        {/* <div className="profile"><div className="avatar">A</div><span>Administrator</span></div> */}
+      </header>
       <main className="main-content">
 
         {/* Page Heading */}
