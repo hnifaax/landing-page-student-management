@@ -17,23 +17,23 @@ import './style.css';
 
 // 15 Data Dummy Mahasiswa
 const initialStudents = [
-  { nim: '2301001', name: 'Andi Saputra', phone: '081234567801', email: 'andi@mail.com', address: 'Surabaya', studyProgram: 'Informatika', year: 2023 },
-  { nim: '2301002', name: 'Budi Santoso', phone: '081234567802', email: 'budi@mail.com', address: 'Malang', studyProgram: 'Sistem Informasi', year: 2023 },
-  { nim: '2301003', name: 'Citra Amelia', phone: '081234567803', email: 'citra@mail.com', address: 'Lumajang', studyProgram: 'Informatika', year: 2023 },
-  { nim: '2401001', name: 'Dinda Putri', phone: '081234567804', email: 'dinda@mail.com', address: 'Jember', studyProgram: 'Manajemen', year: 2024 },
-  { nim: '2401002', name: 'Eko Pratama', phone: '081234567805', email: 'eko@mail.com', address: 'Kediri', studyProgram: 'Informatika', year: 2024 },
+  { nim: '2301001', name: 'Abiyyi Hanif', phone: '081234567801', email: 'abiyyi@mail.com', address: 'Surabaya', studyProgram: 'Teknik Informatika', year: 2023 },
+  { nim: '2301002', name: 'Almira Mutiara', phone: '081234567802', email: 'mira@mail.com', address: 'Malang', studyProgram: 'Sistem Informasi', year: 2023 },
+  { nim: '2301003', name: 'Rosi Nanda', phone: '081234567803', email: 'rosinnd@mail.com', address: 'Surabaya', studyProgram: 'Teknik Informatika', year: 2023 },
+  { nim: '2401001', name: 'Ivan Priya Muachid', phone: '081234567804', email: 'ivan123@mail.com', address: 'Sidoarjo', studyProgram: 'Pendidikan Teknologi Informasi', year: 2024 },
+  { nim: '2401002', name: 'Abdul Rochim', phone: '081234567805', email: 'abdrohim@mail.com', address: 'Kediri', studyProgram: 'Teknik Informatika', year: 2024 },
 
   { nim: '2401003', name: 'Fajar Ramadhan', phone: '081234567806', email: 'fajar@mail.com', address: 'Gresik', studyProgram: 'Sistem Informasi', year: 2024 },
-  { nim: '2401004', name: 'Gita Permata', phone: '081234567807', email: 'gita@mail.com', address: 'Sidoarjo', studyProgram: 'Manajemen', year: 2024 },
-  { nim: '2401005', name: 'Hendra Wijaya', phone: '081234567808', email: 'hendra@mail.com', address: 'Mojokerto', studyProgram: 'Informatika', year: 2024 },
-  { nim: '2501001', name: 'Intan Maharani', phone: '081234567809', email: 'intan@mail.com', address: 'Pasuruan', studyProgram: 'Sistem Informasi', year: 2025 },
-  { nim: '2501002', name: 'Joko Prasetyo', phone: '081234567810', email: 'joko@mail.com', address: 'Banyuwangi', studyProgram: 'Manajemen', year: 2025 },
+  { nim: '2401004', name: 'Gita Permata', phone: '081234567807', email: 'gita@mail.com', address: 'Sidoarjo', studyProgram: 'Pendidikan Teknologi Informasi', year: 2024 },
+  { nim: '2401005', name: 'Hendra Wijaya', phone: '081234567808', email: 'hendra@mail.com', address: 'Kediri', studyProgram: 'Teknik Informatika', year: 2024 },
+  { nim: '2501001', name: 'Intan Maharani', phone: '081234567809', email: 'intan@mail.com', address: 'Sidoarjo', studyProgram: 'Sistem Informasi', year: 2025 },
+  { nim: '2501002', name: 'Joko Prasetyo', phone: '081234567810', email: 'joko@mail.com', address: 'Gresik', studyProgram: 'Pendidikan Teknologi Informasi', year: 2025 },
 
-  { nim: '2501003', name: 'Kartika Sari', phone: '081234567811', email: 'kartika@mail.com', address: 'Blitar', studyProgram: 'Informatika', year: 2025 },
-  { nim: '2501004', name: 'Lukman Hakim', phone: '081234567812', email: 'lukman@mail.com', address: 'Madiun', studyProgram: 'Sistem Informasi', year: 2025 },
-  { nim: '2501005', name: 'Maya Anggraini', phone: '081234567813', email: 'maya@mail.com', address: 'Tuban', studyProgram: 'Manajemen', year: 2025 },
-  { nim: '2501006', name: 'Naufal Akbar', phone: '081234567814', email: 'naufal@mail.com', address: 'Bojonegoro', studyProgram: 'Informatika', year: 2025 },
-  { nim: '2501007', name: 'Olivia Safitri', phone: '081234567815', email: 'olivia@mail.com', address: 'Probolinggo', studyProgram: 'Sistem Informasi', year: 2025 },
+  { nim: '2501003', name: 'Kartika Sari', phone: '081234567811', email: 'kartika@mail.com', address: 'Malang', studyProgram: 'Teknik Informatika', year: 2025 },
+  { nim: '2501004', name: 'Lukman Hakim', phone: '081234567812', email: 'lukman@mail.com', address: 'Surabaya', studyProgram: 'Sistem Informasi', year: 2025 },
+  { nim: '2501005', name: 'Maya Anggraini', phone: '081234567813', email: 'maya@mail.com', address: 'Sidoarjo', studyProgram: 'Pendidikan Teknologi Informasi', year: 2025 },
+  { nim: '2501006', name: 'Naufal Akbar', phone: '081234567814', email: 'naufal@mail.com', address: 'Gresik', studyProgram: 'Teknik Informatika', year: 2025 },
+  { nim: '2501007', name: 'Olivia Safitri', phone: '081234567815', email: 'olivia@mail.com', address: 'Kediri', studyProgram: 'Sistem Informasi', year: 2025 },
 ];
 
 function App() {
